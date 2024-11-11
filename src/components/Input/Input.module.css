@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input_block {
+  display: flex;
+  width: 508px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+
+input {
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  width: 348px;
+  height: 50px;
+  padding: 8px 12px;
+}
+
+span {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+input::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.25);
+}
